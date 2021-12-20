@@ -22,3 +22,6 @@ int main() {
    
     return 0;
 }
+
+//This can become overhead if the execution time of function is less than the switching time from the caller function to called function (callee).
+//Caller function callded function k call korar jonno j time dorkar tar cheye o kom somoy lage called function ta execute hoite sesob small function er ketre inline use kora hoy.
